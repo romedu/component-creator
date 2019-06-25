@@ -1,0 +1,20 @@
+{
+  "name": "component-creator",
+  "version": "1.0.0",
+  "description": "A simple cli tool to help create reactjs components faster",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "creator": "node index.js"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "cli",
+    "tool",
+    "folder",
+    "javascript"
+  ],
+  "author": "Roberto Meran",
+  "license": "MIT"
+}
