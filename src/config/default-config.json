@@ -1,0 +1,7 @@
+{
+    "componentName": "Component",
+    "basePath": "./",
+    "isClassBased": true,
+    "isStateful": true,
+    "includesCssFile": true
+}

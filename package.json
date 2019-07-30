@@ -2,10 +2,12 @@
   "name": "component-creator",
   "version": "1.0.0",
   "description": "A simple cli tool to help create reactjs components faster",
-  "main": "index.js",
+  "main": "bin/cli",
+  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "creator": "node index.js"
+    "creator": "node ./src/cli.js",
+    "precreator": "node ./src/component-config.js"
   },
   "keywords": [
     "react",
@@ -16,5 +18,8 @@
     "javascript"
   ],
   "author": "Roberto Meran",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "creator": "./bin/cli"
+  }
 }

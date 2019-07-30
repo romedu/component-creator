@@ -1,0 +1,7 @@
+{
+    "componentName": "Gerger",
+    "basePath": "./",
+    "isClassBased": true,
+    "isStateful": false,
+    "includesCssFile": false
+}
